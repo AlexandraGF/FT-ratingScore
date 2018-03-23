@@ -25,6 +25,15 @@ describe('FTRatingScore', function (){
        website.rate(3);
        expect(website.score3).toEqual(2);
      });
+
+     it('percentage for each rating', function() {
+       website = new FTRatingScore();
+       website.rate(4);
+       website.rate(4);
+       website.rate(3);
+       website.rate(2);
+       expect(website.percentage4).toEqual("50%");
+     });
    });
 
 });
