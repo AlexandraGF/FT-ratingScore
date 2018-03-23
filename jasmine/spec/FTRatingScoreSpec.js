@@ -34,6 +34,15 @@ describe('FTRatingScore', function (){
        website.rate(2);
        expect(website.percentage4).toEqual("50%");
      });
+
+     it('average for all ratings', function() {
+       website = new FTRatingScore();
+       website.rate(4);
+       website.rate(4);
+       website.rate(3);
+       website.rate(2);
+       expect(website.average).toEqual('3.25');
+     });
    });
 
 });
