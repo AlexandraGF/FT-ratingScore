@@ -3,5 +3,10 @@ var FTRatingScore = function (){
 };
 
 FTRatingScore.prototype.rate = function (score) {
-  this.score = score;
+  if (this.score == 0) {
+  this.score += score;
+}
+ else {
+   this.score += 0;
+ }
 };
