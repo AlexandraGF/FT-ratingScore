@@ -3,25 +3,15 @@ $(document).ready(function() {
   var log = new FTRatingLog();
 
   $('#button4').on('click', function() {
-    if (website.score == 0) {
-      log.log(4);
-    }
-    else {
-      log.log(0);
-    }
     website.rate(4);
+    log.log(4);
     alert("Thank you for rating FT");
     console.log(website.score);
     console.log(log.history);
   });
 
   $('#button3').on('click', function() {
-    if (website.score == 0) {
-      log.log(3);
-    }
-    else {
-      log.log(0);
-    }
+    log.log(3);
     website.rate(3);
     alert("Thank you for rating FT");
     console.log(website.score);
@@ -29,12 +19,7 @@ $(document).ready(function() {
   });
 
   $('#button2').on('click', function() {
-    if (website.score == 0) {
-      log.log(2);
-    }
-    else {
-      log.log(0);
-    }
+    log.log(2);
     website.rate(2);
     alert("Thank you for rating FT");
     console.log(website.score);
@@ -42,12 +27,7 @@ $(document).ready(function() {
   });
 
   $('#button1').on('click', function() {
-    if (website.score == 0) {
-      log.log(1);
-    }
-    else {
-      log.log(0);
-    }
+    log.log(1);
     website.rate(1);
     alert("Thank you for rating FT");
     console.log(website.score);

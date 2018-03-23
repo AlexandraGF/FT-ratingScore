@@ -6,7 +6,9 @@ describe('FTRatingLog', function (){
       ratings = new FTRatingLog();
       website.rate(3);
       ratings.log(3);
-      expect(ratings.history).toEqual([3]);
+      website.rate(4);
+      ratings.log(4);
+      expect(ratings.history).toEqual([3,4]);
     });
 
 });
