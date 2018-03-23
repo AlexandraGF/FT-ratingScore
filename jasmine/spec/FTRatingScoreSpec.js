@@ -16,4 +16,15 @@ describe('FTRatingScore', function (){
       expect(website.score).toEqual(7);
     });
   });
+
+  describe('Visitor can see ', function(){
+     it('the number of ratings for each option', function() {
+       website = new FTRatingScore();
+       website.rate(3);
+       website.rate(4);
+       website.rate(3);
+       expect(website.score3).toEqual(2);
+     });
+   });
+
 });
