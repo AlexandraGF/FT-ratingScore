@@ -9,11 +9,13 @@ var FTRatingScore = function (){
   this.percentage3 = 0;
   this.percentage2= 0;
   this.percentage1 = 0;
+  this.average = 0;
 };
 
 FTRatingScore.prototype.rate = function (score) {
     this.score += score;
     this.numberClicks += 1;
+    this.average = (this.score / this.numberClicks).toFixed(2);
 
     if (score == 4) {
       this.score4 += 1;
