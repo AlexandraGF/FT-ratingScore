@@ -4,7 +4,6 @@ table, th, td {
 }
 
 h1, h2, h3, section {
-  /*font-family: "Arial", Times, serif;*/
   font-family: 'IBM Plex Sans Condensed', sans-serif;
   font-size: 18px;
   text-align: center;
