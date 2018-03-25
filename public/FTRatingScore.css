@@ -3,10 +3,17 @@ table, th, td {
    text-align: center;
 }
 
-h1, section {
+h1, h2, h3, section {
+  /*font-family: "Arial", Times, serif;*/
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 18px;
   text-align: center;
 }
 
 .table1 {
-  margin-left: 40%;
+  margin-left: 42%;
+}
+
+html {
+  background-color: #FFF1E4;
 }
