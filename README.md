@@ -1,6 +1,8 @@
 # FT Rating Score Website
 =========================
 
+ ![alt tag](public/Rating_page.png)
+
 ## The Task
 
 ```
@@ -30,9 +32,5 @@ If the heroku website is not displayed like in the below screenshots or not work
  - display the percentage for each rating and number of clicks on a specific rating
  - add styling for the interface
  - deployed to heroku.com
-
-## Screenshots from the heroku Website
-
- ![alt tag](public/Rating_page.png)
 
  ![alt tag](public/thank_you.png)
