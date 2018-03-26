@@ -1,5 +1,5 @@
 # FT Rating Score Website
-=========================
+===================================
 
  ![alt tag](public/Rating_page.png)
 
