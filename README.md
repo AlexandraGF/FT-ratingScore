@@ -15,6 +15,12 @@ Build a website hosted in the cloud that asks for and stores a simple rating sco
 
 If the heroku website is not displayed like in the below screenshots or not working, please clear your Browsing Data - cached images and files (it may happen on Chrome)
 
+## To run the Tests (for Mac users)
+
+1. You need to open the command line and type ``` git clone git@github.com:AlexandraGF/FT-ratingScore.git ``` in your desired folder on your computer.
+2. Then you need to be in the correct folder, by typing ``` cd FT-ratingScore/jasmine ```
+3. Then run the command ``` open SpecRunner.html ``` This will open your browser and you can see the tests passing.
+
 ## Approach on solving the rating score website:
 
  - decided to use Javascript for the business logic as it's easier to have a one page website for calculating, keeping score and displaying it back on the same page.
