@@ -17,21 +17,27 @@ FTRatingScore.prototype.rate = function (score) {
     this.numberClicks += 1;
     this.average = (this.score / this.numberClicks).toFixed(2);
 
-    if (score == 4) {
+    switch (score) {
+    case 4:
       this.score4 += 1;
-    }
-    else if (score == 3) {
+      break;
+    case 3:
       this.score3 += 1;
-    }
-    else if (score == 2) {
+      break;
+    case 2:
       this.score2 += 1;
-    }
-    else if (score == 1) {
+      break;
+    case 1:
       this.score1 += 1;
-    }
+      break;
+   }
 
-    this.percentage4 = ((this.score4 / this.numberClicks) * 100).toFixed(0) + '%';
-    this.percentage3 = ((this.score3 / this.numberClicks) * 100).toFixed(0) + '%';
-    this.percentage2 = ((this.score2 / this.numberClicks) * 100).toFixed(0) + '%';
-    this.percentage1 = ((this.score1 / this.numberClicks) * 100).toFixed(0) + '%';
+    this._average();
+};
+
+FTRatingScore.prototype._average = function () {
+  this.percentage4 = ((this.score4 / this.numberClicks) * 100).toFixed(0) + '%';
+  this.percentage3 = ((this.score3 / this.numberClicks) * 100).toFixed(0) + '%';
+  this.percentage2 = ((this.score2 / this.numberClicks) * 100).toFixed(0) + '%';
+  this.percentage1 = ((this.score1 / this.numberClicks) * 100).toFixed(0) + '%';
 };
