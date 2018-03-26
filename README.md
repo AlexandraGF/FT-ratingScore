@@ -4,8 +4,7 @@
 ## The Task
 
 ```
-Build a website hosted in the cloud that asks for and
-stores a simple rating score for using ft.com.
+Build a website hosted in the cloud that asks for and stores a simple rating score for using ft.com.
 ```
 
 ## How to use FT Rating Score
@@ -26,7 +25,7 @@ If the heroku website is not displayed like in the below screenshots or not work
  - add styling for the interface
  - deployed to heroku.com
 
-## Screenshots from the heroku
+## Screenshots from the heroku Website
 
  ![alt tag](public/Rating_page.png)
 
