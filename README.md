@@ -3,6 +3,8 @@
 
 ![alt tag](public/Rating_page.png)
 
+![alt tag](public/thank_you.png)
+
 How to use FT Rating Score
 
 1. Open a browser and type ``` https://ft-rating.herokuapp.com/ ```
