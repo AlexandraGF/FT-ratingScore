@@ -23,6 +23,10 @@ If the heroku website is not displayed like in the below screenshots or not work
 2. Then you need to be in the correct folder, by typing ``` cd FT-ratingScore/jasmine ```
 3. Then run the command ``` open SpecRunner.html ``` This will open your browser and you can see the tests passing.
 
+## Site architecture diagram
+
+![alt tag](public/site_diagram.jpg)
+
 ## Approach on solving the rating score website:
 
  - decided to use Javascript for the business logic as it's easier to have a one page website for calculating, keeping score and displaying it back on the same page.
