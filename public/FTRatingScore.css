@@ -16,3 +16,10 @@ h1, h2, h3, section {
 html {
   background-color: #FFF1E4;
 }
+
+#average {
+  text-align: center;
+  border: 1px solid black;
+  margin-left: 42%;
+  margin-right: 41%;
+}
