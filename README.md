@@ -11,7 +11,7 @@ Build a website hosted in the cloud that asks for and stores a simple rating sco
 
 ## How to use FT Rating Score
 
-1. Open the link in a new tab [FT Rating Score website](https://ft-rating.herokuapp.com/" target="_blank) 
+1. Open the link in a new tab [FT Rating Score website](https://ft-rating.herokuapp.com/)
 2. For rating Financial Times, you need to click on one of the smiley options.
 3. If you want to reset the values, please refresh the page.
 4. You can click on different rating options and you can see the changes in real-time.
