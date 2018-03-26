@@ -14,8 +14,9 @@ Build a website hosted in the cloud that asks for and stores a simple rating sco
 1. Open a browser and type ``` https://ft-rating.herokuapp.com/ ```
 2. For rating Financial Times, you need to click on one of the smiley options.
 3. If you want to reset the values, please refresh the page.
+4. You can click on different rating options and you can see the changes in real-time. 
 
-If the heroku website is not displayed like in the below screenshots or not working, please clear your Browsing Data - cached images and files (it may happen on Chrome)
+If the heroku website is not displayed like in the screenshots or not working, please clear your Browsing Data - cached images and files (it may happen on Chrome)
 
 ## To run the Tests (for Mac users)
 
