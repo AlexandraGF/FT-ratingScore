@@ -18,7 +18,16 @@ Build a website hosted in the cloud that asks for and stores a simple rating sco
 
 If the heroku website is not displayed like in the screenshots or not working, please clear your Browsing Data - cached images and files (it may happen on Chrome)
 
-## To run the Tests (for Mac users)
+## How to use FT Rating Score from your command line
+
+1. Open command line and type ``` git clone git@github.com:AlexandraGF/FT-ratingScore.git ``` in your desired folder on your computer.
+2. Run the command ``` cd FT-ratingScore ```
+3. Type ``` open index.html ``` and your browser will open the website.
+4. For rating Financial Times, you need to click on one of the smiley options.
+5. If you want to reset the values, please refresh the page.
+6. You can click on different rating options and you can see the changes in real-time.
+
+## How to run the tests
 
 1. You need to open the command line and type ``` git clone git@github.com:AlexandraGF/FT-ratingScore.git ``` in your desired folder on your computer.
 2. Then you need to be in the correct folder, by typing ``` cd FT-ratingScore/jasmine ```
