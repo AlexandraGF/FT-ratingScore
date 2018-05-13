@@ -9,15 +9,6 @@
 Build a website hosted in the cloud that asks for and stores a simple rating score for using ft.com.
 ```
 
-## How to use FT Rating Score
-
-1. Open [FT Rating Score website](https://ft-rating.herokuapp.com/) in a new tab.
-2. For rating Financial Times, you need to click on one of the smiley options.
-3. If you want to reset the values, please refresh the page.
-4. You can click on different rating options and you can see the changes in real-time.
-
-If the heroku website is not displayed like in the screenshots or not working, please clear your Browsing Data - cached images and files (it may happen on Chrome)
-
 ## How to use FT Rating Score from your command line
 
 1. Open command line and type ``` git clone git@github.com:AlexandraGF/FT-ratingScore.git ``` in your desired folder on your computer.
