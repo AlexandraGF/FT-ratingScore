@@ -9,6 +9,17 @@
 Build a website hosted in the cloud that asks for and stores a simple rating score for using ft.com.
 ```
 
+## How to use FT Rating Score (directly on your browser)
+
+  1. Open a browser and type ``` https://alexandragf.github.io/FT-ratingScore/ ```		 
+  2. For rating Financial Times, you need to click on one of the smiley options.		
+  3. If you want to reset the value, please refresh the page.  		
+
+ If the website is not displayed like in the below screenshots or not working, please clear your Browsing Data - cached images and files (it may happen on Chrome)
+
+
+
+
 ## How to use FT Rating Score from your command line
 
 1. Open command line and type ``` git clone git@github.com:AlexandraGF/FT-ratingScore.git ``` in your desired folder on your computer.
