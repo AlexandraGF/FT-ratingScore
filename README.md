@@ -23,7 +23,7 @@ Build a website hosted in the cloud that asks for and stores a simple rating sco
 ## How to use FT Rating Score from your command line
 
 1. Open command line and type ``` git clone git@github.com:AlexandraGF/FT-ratingScore.git ``` in your desired folder on your computer.
-2. Run the command ``` cd FT-ratingScore ```
+2. Run the command ``` cd FT-ratingScore/docs ```
 3. Type ``` open index.html ``` and your browser will open the website.
 4. For rating Financial Times, you need to click on one of the smiley options.
 5. If you want to reset the values, please refresh the page.
@@ -32,7 +32,7 @@ Build a website hosted in the cloud that asks for and stores a simple rating sco
 ## How to run the tests
 
 1. You need to open the command line and type ``` git clone git@github.com:AlexandraGF/FT-ratingScore.git ``` in your desired folder on your computer.
-2. Then you need to be in the correct folder, by typing ``` cd FT-ratingScore/jasmine ```
+2. Then you need to be in the correct folder, by typing ``` cd FT-ratingScore/docs/jasmine ```
 3. Then run the command ``` open SpecRunner.html ``` This will open your browser and you can see the tests passing.
 
 ## Site architecture diagram
