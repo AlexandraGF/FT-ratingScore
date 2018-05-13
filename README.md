@@ -1,7 +1,7 @@
 # FT Rating Score Website
 ===================================
 
- ![alt tag](docs/public/Rating_page.png)
+ ![alt tag](public/Rating_page.png)
 
 ## The Task
 
@@ -23,7 +23,7 @@ Build a website hosted in the cloud that asks for and stores a simple rating sco
 ## How to use FT Rating Score from your command line
 
 1. Open command line and type ``` git clone git@github.com:AlexandraGF/FT-ratingScore.git ``` in your desired folder on your computer.
-2. Run the command ``` cd FT-ratingScore/docs ```
+2. Run the command ``` cd FT-ratingScore ```
 3. Type ``` open index.html ``` and your browser will open the website.
 4. For rating Financial Times, you need to click on one of the smiley options.
 5. If you want to reset the values, please refresh the page.
@@ -32,12 +32,12 @@ Build a website hosted in the cloud that asks for and stores a simple rating sco
 ## How to run the tests
 
 1. You need to open the command line and type ``` git clone git@github.com:AlexandraGF/FT-ratingScore.git ``` in your desired folder on your computer.
-2. Then you need to be in the correct folder, by typing ``` cd FT-ratingScore/docs/jasmine ```
+2. Then you need to be in the correct folder, by typing ``` cd FT-ratingScore/jasmine ```
 3. Then run the command ``` open SpecRunner.html ``` This will open your browser and you can see the tests passing.
 
 ## Site architecture diagram
 
-![alt tag](docs/public/site_diagram.jpg)
+![alt tag](public/site_diagram.jpg)
 
 ## Approach on solving the rating score website:
 
@@ -49,4 +49,4 @@ Build a website hosted in the cloud that asks for and stores a simple rating sco
  - add styling for the interface
  - deployed to heroku.com
 
- ![alt tag](docs/public/thank_you.png)
+ ![alt tag](public/thank_you.png)
