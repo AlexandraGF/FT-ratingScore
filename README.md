@@ -1,7 +1,7 @@
 # FT Rating Score Website
 ===================================
 
- ![alt tag](public/Rating_page.png)
+ ![alt tag](docs/public/Rating_page.png)
 
 ## The Task
 
@@ -35,7 +35,7 @@ If the heroku website is not displayed like in the screenshots or not working, p
 
 ## Site architecture diagram
 
-![alt tag](public/site_diagram.jpg)
+![alt tag](docs/public/site_diagram.jpg)
 
 ## Approach on solving the rating score website:
 
@@ -47,4 +47,4 @@ If the heroku website is not displayed like in the screenshots or not working, p
  - add styling for the interface
  - deployed to heroku.com
 
- ![alt tag](public/thank_you.png)
+ ![alt tag](docs/public/thank_you.png)
